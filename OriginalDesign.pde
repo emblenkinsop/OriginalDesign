@@ -28,8 +28,8 @@ void draw() {
   //hills
   fill(118,67,8);
   stroke(108,57,0);
-  arc(width, height,width*2,height*3/4,PI,2*PI,CHORD);
-  arc(0, height,width*2,height*3/4,PI,2*PI,CHORD);
+  arc(width, height,width*2,height*3/4,PI,2*PI);
+  arc(0, height,width*2,height*3/4,PI,2*PI);
   
   star();
   
